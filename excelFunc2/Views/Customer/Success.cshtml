@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Success</title>
+</head>
+<body>
+    <h3>List Customers</h3>
+    <table cellpadding="2" cellspacing="2" border="1">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        @foreach (var cus in ViewBag.ListCustomers) {
+            <tr>
+                <td>@cus.Id</td>
+                <td>@cus.Name</td>
+                <td>@cus.Age</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
