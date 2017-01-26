@@ -7,13 +7,16 @@ namespace excelFunc2.Models
 {
     public class Answer
     {
-        int ID { get; set; }
+        public int ID { get; set; }
 
-        string Cotent { get; set; }
+        public string Content { get; set; }
 
-        string Explaination { get; set; }
+        public string Explaination { get; set; }
 
-        int Answer_Flag { get; set; }
+        public int Answer_Flag { get; set; }
+
+        public Question Question { get; set; }
+        public int QuestionId { get; set; }
 
     }
 }

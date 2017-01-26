@@ -7,15 +7,15 @@ namespace excelFunc2.Models
 {
     public class Question
     {
-        int ID { get; set; }
+        public int ID { get; set; }
 
-        string Content { get; set; }
+        public string Content { get; set; }
 
-        int Difficulty { get; set; }
+        public int Difficulty { get; set; }
 
-        int NumberOfWrongGlobal { get; set; }
+        public int NumberOfWrongGlobal { get; set; }
 
-        int NumberOfCorrectGlobal { get; set; }
+        public int NumberOfCorrectGlobal { get; set; }
 
     }
 }

@@ -217,13 +217,20 @@
     <Compile Include="Migrations\201701251856094_InitialModel1.Designer.cs">
       <DependentUpon>201701251856094_InitialModel1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201701261946159_AddQuestionAndAnswers.cs" />
+    <Compile Include="Migrations\201701261946159_AddQuestionAndAnswers.Designer.cs">
+      <DependentUpon>201701261946159_AddQuestionAndAnswers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Answer.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Question.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModel\QuizViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -309,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701251856094_InitialModel1.resx">
       <DependentUpon>201701251856094_InitialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201701261946159_AddQuestionAndAnswers.resx">
+      <DependentUpon>201701261946159_AddQuestionAndAnswers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
